@@ -19,12 +19,16 @@ public class Studentlist {
         Student s1 = new Student();
         s1.setName("Dev Ambaliya");
         Student s2 = new Student();
-        s2.setName("Dev ");
+        s2.setName("Het Ambaliya ");
         Student s3 = new Student();
-        s3.setName(" Ambaliya");
+        s3.setName("Meet Ambaliya");
+        Student s4 = new Student();
+        s4.setName("Milan mbaliya");
         Studentlist[0] = s1;
         Studentlist[1] = s2;
         Studentlist[2] = s3;
+        Studentlist[3] = s4;
+
         
         for (Student s: Studentlist) {
             System.out.println(s.getName);
